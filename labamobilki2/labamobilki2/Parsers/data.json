@@ -1,0 +1,126 @@
+{
+  "items":[
+    {
+      "name" : "infantry",
+      "shortdescr" : "main power of any war",
+      "longdescr" : "Infantry is the branch of an army that engages in military combat on foot, distinguished from cavalry, artillery, and tank forces. Also known as foot soldiers, infantry traditionally relies on moving by foot between combats as well, but may also use mounts, military vehicles, or other transport. Infantry make up a large portion of all armed forces in most nations, and typically bear the largest brunt in warfare, as measured by casualties, deprivation, or physical and psychological stress./nThe first military forces in history were infantry. In antiquity, infantry were armed with an early melee weapon such as a spear, axe or sword, or an early ranged weapon like a javelin, sling, or bow, with a few infantrymen having both a melee and a ranged weapon. With the development of gunpowder, infantry began converting to primarily firearms. By the time of Napoleonic warfare, infantry, cavalry, and artillery formed a basic triad of ground forces, though infantry usually remained the most numerous. With armoured warfare, armoured fighting vehicles have replaced the horses of cavalry, and airpower has added a new dimension to ground combat, but infantry remains pivotal to all modern combined arms operations./nInfantry have much greater local situational awareness than other military forces, due to their inherent intimate contact with the battlefield (boots on the ground); this is vital for taking or holding ground (any military objectives), securing battlefield victories, maintaining military area control and security both at and behind the front lines, for capturing ordnance or materiel, taking prisoners, and military occupation. Infantry can more easily recognise, adapt and respond to local conditions, weather, and changing enemy weapons or tactics. They can operate in a wide range of terrain inaccessible to military vehicles, and can operate with a lower logistical burden. Infantry are most easily deliverable forces to ground combat areas, by simple and reliable marching, or by trucks, sea or air transport; they can also be inserted directly into combat by amphibious landing, or for air assault by parachute or helicopter (airmobile or airborne infantry). They can be augmented with a variety of crew-served weapons and armored personnel carriers.",
+      "image1" : "infantry",
+      "image2" : "infantrymain",
+      "link" : "https://en.wikipedia.org/wiki/Infantry"
+    },
+	{
+      "name" : "cavalry",
+      "shortdescr" : "horses give significant advantage to speed",
+      "longdescr" : "Cavalry or horsemen were soldiers or warriors who fought mounted on horseback. Cavalry were historically the most mobile of the combat arms. An individual soldier in the cavalry is known by a number of designations such as cavalryman, horseman, dragoon or trooper. The designation of cavalry was not usually given to any military forces that used other animals, such as camels, mules or elephants. Infantry who moved on horseback, but dismounted to fight on foot, were known in the 17th and early 18th centuries as dragoons, a class of mounted infantry which later evolved into cavalry proper while retaining their historic title./nCavalry had the advantage of improved mobility, and a man fighting from horseback also had the advantages of greater height, speed, and inertial mass over an opponent on foot. Another element of horse mounted warfare is the psychological impact a mounted soldier can inflict on an opponent./nThe speed, mobility and shock value of the cavalry was greatly appreciated and exploited in armed forces in the Ancient and Middle Ages; some forces were mostly cavalry, particularly in nomadic societies of Asia, notably the Mongol armies. In Europe cavalry became increasingly armoured (heavy), and eventually became known for the mounted knights. During the 17th century cavalry in Europe lost most of its armor, ineffective against the muskets and cannon which were coming into use, and by the mid-19th century armor had mainly fallen into disuse, although some regiments retained a small thickened cuirass that offered protection against lances and sabres and some protection against shot.",
+      "image1" : "cavalry",
+      "image2" : "cavalrymain",
+      "link" : "https://en.wikipedia.org/wiki/Cavalry"
+    },
+	{
+      "name" : "marine",
+      "shortdescr" : "first special forces in the world",
+      "longdescr" : "Marines, also known as a marine corps or naval infantry, are typically an infantry force that specializes in the support of naval and army operations at sea and on land, as well as the execution of their own operations. In the majority of countries, the marine force is an integral part of the navy, but it can also be under the army like the Troupes de marine (French Marines) and Givati Brigade (Israeli Marines), or form an independent service branch like the United States Marine Corps and the Royal Marines (although the United States Marine Corps is under the United States Department of the Navy, and the Royal Marines come under Her Majestys Naval Service)./nHistorically, tasks undertaken by marines have included: helping maintain discipline and order aboard the ship (reflecting the pressed nature of the ships company and the risk of mutiny), the boarding of vessels during combat or capture of prize ships, and providing manpower for raiding ashore in support of the naval objectives./nWith the industrialization of warfare in the 20th century the scale of landing operations increased; this brought with it an increased likelihood of opposition and a need for co-ordination of various military elements. Marine forces evolved to specialize in the skills and capabilities required for amphibious warfare.",
+      "image1" : "marine",
+      "image2" : "marinemain",
+      "link" : "https://en.wikipedia.org/wiki/Marines"
+    },
+	{
+      "name" : "mountaneers",
+      "shortdescr" : "mointain battles need special kind of a soldier",
+      "longdescr" : "basically used as infantry they however provide a stronger fight in harsh mountains due to their high training and special skills./n main history of mountaineers is yet unknown, however we can truly say that thier best hour was during WW2 in a cold mountains in Italy. when used well mountaineers have a significant advantage on averaage infantry and even a tank divisions depending on weather and luck",
+      "image1" : "mountaineers",
+      "image2" : "mountaineermain",
+      "link" : "https://www.army.mil/article/143088/bootprints_in_history_mountaineers_take_the_ridge"
+    },
+	{
+      "name" : "motorized",
+      "shortdescr" : "war is getting faster. and infantry keeps speed up",
+      "longdescr" : "In NATO and most other western countries, motorized infantry is infantry that is transported by trucks or other un-protected motor vehicles. It is distinguished from mechanized infantry, which is carried in armoured personnel carriers or infantry fighting vehicles, and from light infantry, which can typically operate autonomously from supporting elements and vehicles for relatively long periods and may be airborne./nIn Russia and the former Soviet Union, the term motostrelki (мотострелки in Cyrillic) is used to indicate mechanized infantry; that usage, during the Korean War, prevailed in all Warsaw Pact countries./nMotorizing infantry is the first stage towards the mechanization of an army. Civilian trucks are readily adaptable to military uses of transporting soldiers, towing guns, and carrying equipment and supplies. That greatly increases the strategic mobility of infantry units, which would otherwise rely on marches or railroads. In practice, armies have found it advantageous to develop trucks to military specifications, such as all-wheel drive, to have vehicles that function reliably in extremes of weather and terrain.",
+      "image1" : "motorized",
+      "image2" : "motorizedmain",
+      "link" : "https://en.wikipedia.org/wiki/Motorized_infantry"
+    },
+	{
+      "name" : "mechanized",
+      "shortdescr" : "when the speed can be sacrificed to greater damage",
+      "longdescr" : "Mechanized infantry are infantry equipped with armored personnel carriers (APCs) or infantry fighting vehicles (IFVs) for transport and combat (see also mechanized force)./nMechanized infantry is distinguished from motorized infantry in that its vehicles provide a degree of protection from hostile fire, as opposed to soft-skinned wheeled vehicles (trucks or jeeps) for motorized infantry. Most APCs and IFVs are fully tracked or are all-wheel drive vehicles (6×6 or 8×8), for mobility across rough ground. Some nations distinguish between mechanized and armored infantry, designating troops carried by APCs as mechanized and those in IFVs as armored./nThe support weapons for mechanized infantry are also provided with motorized transport, or they are built directly into combat vehicles to keep pace with the mechanized infantry in combat. For units equipped with most types of APC or any type of IFV, fire support weapons, such as machine guns, autocannons, small-bore direct-fire howitzers, and anti-tank guided missiles are often mounted directly on the infantry's own transport vehicles.",
+      "image1" : "mechanized",
+      "image2" : "mechanizedmain",
+      "link" : "https://en.wikipedia.org/wiki/Mechanized_infantry"
+    },
+	{
+      "name" : "paratrooper",
+      "shortdescr" : "new war. new infantry",
+      "longdescr" : "Paratroopers are military parachutists — military personnel trained in parachuting into an operation and usually functioning as part of an airborne force. Military parachutists (troops) and parachutes were first used on a large scale during World War II for troop distribution and transportation. Paratroopers are often used to seize strategic objectives such as airfields or bridges./nU.S. Army paratroopers with the 82nd Airborne Division parachute from a C-130 Hercules aircraft during Operation Toy Drop 2007 at Pope Air Force Base/nParatroopers are used for tactical advantage as they can be inserted onto the battlefield from the air, thereby allowing them to be positioned in areas not directly accessible by other transportion. They jump out of airplanes and use parachutes to land safely on the ground. It is one of the three types of forced entry strategic techniques for entering a theater of war; the other two being by land and by water. The ability of air assault to enter the battlefield from any location allows paratroopers to evade emplaced fortifications that exist to prevent an attack from a specific direction, and the possible use of paratroopers forces an army to spread their defenses to protect other areas which would otherwise be safe by virtue of geography or defensive positions. Another common use for paratroopers is to establish an airhead for landing other units.",
+      "image1" : "paratrooper",
+      "image2" : "paratroopermain",
+      "link" : "https://en.wikipedia.org/wiki/Paratrooper"
+    },
+	{
+      "name" : "anti-air",
+      "shortdescr" : "defenders from death from above",
+      "longdescr" : "Anti-aircraft warfare or counter-air defence is defined by NATO as all measures designed to nullify or reduce the effectiveness of hostile air action.They include ground-and air-based weapon systems, associated sensor systems, command and control arrangements and passive measures (e.g. barrage balloons). It may be used to protect naval, ground, and air forces in any location. However, for most countries the main effort has tended to be homeland defence. NATO refers to airborne air defence as counter-air and naval air defence as anti-aircraft warfare. Missile defence is an extension of air defence as are initiatives to adapt air defence to the task of intercepting any projectile in flight./nIn some countries, such as Britain and Germany during the Second World War, the Soviet Union, NATO, and the United States, ground-based air defence and air defence aircraft have been under integrated command and control. However, while overall air defence may be for homeland defence including military facilities, forces in the field, wherever they are, invariably deploy their own air defence capability if there is an air threat. A surface-based air defence capability can also be deployed offensively to deny the use of airspace to an opponent.",
+      "image1" : "antiair",
+      "image2" : "antiairmain",
+      "link" : "https://en.wikipedia.org/wiki/Anti-aircraft_warfare"
+    },
+	{
+      "name" : "artillery",
+      "shortdescr" : "effective way to bring destruction",
+      "longdescr" : "Artillery is a class of large military weapons built to fire munitions far beyond the range and power of infantry's small arms. Early artillery development focused on the ability to breach fortifications, and led to heavy, fairly immobile siege engines. As technology improved, lighter, more mobile field artillery developed for battlefield use. This development continues today; modern self-propelled artillery vehicles are highly mobile weapons of great versatility providing the largest share of an army's total firepower.",
+      "image1" : "artillery",
+      "image2" : "artillerymain",
+      "link" : "https://en.wikipedia.org/wiki/Artillery"
+    },
+	{
+      "name" : "anti-tank",
+      "shortdescr" : "when the armor have to be breached",
+      "longdescr" : "Anti-tank warfare arose as a result of the need to develop technology and tactics to destroy tanks during World War I. Since the first tanks were developed by the Triple Entente in 1916 but not operated in battle until 1917, the first anti-tank weapons were developed by the German Empire. The first developed anti-tank weapon was a scaled-up bolt-action rifle, the Mauser 1918 T-Gewehr that fired a 13mm cartridge with a solid bullet that could penetrate the thin armor of tanks of the time and destroy the engine or ricochet inside killing occupants. Because tanks represent an enemy's greatest force projection on land, anti-tank warfare has been incorporated into the doctrine of nearly every combat service since. Most predominant anti-tank weapons at the start of World War II were the tank-mounted gun, anti-tank guns and anti-tank grenades used by the infantry as well as ground-attack aircraft.",
+      "image1" : "antitank",
+      "image2" : "antitankmain",
+      "link" : "https://en.wikipedia.org/wiki/Anti-tank_warfare"
+    },
+	{
+      "name" : "rocket artillery",
+      "shortdescr" : "first weapon of mass destruction",
+      "longdescr" : "Modern rocket artillery was first employed during World War II, in the form of the German Nebelwerfer family of rocket ordnance designs, and Soviet Katyusha-series. The Soviet Katyushas, nicknamed by German troops Stalin's Organ because of their visual resemblance to a church musical organ and alluding to the sound of the weapon's rockets, were mounted on trucks or light tanks, while the early German Nebelwerfer ordnance pieces were mounted on a small wheeled carriage which was light enough to be moved by several men and could easily be deployed nearly anywhere, while also being towed by most vehicles. The Germans also had self-propelled rocket artillery in the form of the Panzerwerfer and Wurfrahmen 40 which equipped half-track armoured fighting vehicles. An oddity in the subject of rocket artillery during this time was the German Sturmtiger, a vehicle based on the Tiger I heavy tank chassis that was armed with a 380 mm rocket mortar.",
+      "image1" : "rocket",
+      "image2" : "rocketmain",
+      "link" : "https://en.wikipedia.org/wiki/Rocket_artillery"
+    },
+	{
+      "name" : "light tank",
+      "shortdescr" : "fast but armoured this brings hell on the frontline",
+      "longdescr" : "A light tank is a tank variant initially designed for rapid movement, and now primarily employed in the reconnaissance role, or in support of expeditionary forces where main battle tanks cannot be made available. Early light tanks were generally armed and armored similar to an armored car, but used tracks in order to provide better cross-country mobility./nThe fast light tank was a major feature of the pre-World War II buildup, where it was expected they would be used to exploit breakthroughs in enemy lines created by slower, heavier tanks./nNumerous small tank designs and tankettes were developed during this period and known under a variety of names, including the combat car.",
+      "image1" : "light_tank",
+      "image2" : "lighttankmain",
+      "link" : "https://en.wikipedia.org/wiki/Light_tank"
+    },
+	{
+      "name" : "medium tank",
+      "shortdescr" : "versatile and deadly weapon",
+      "longdescr" : "Medium tank is a classification of tanks, particularly prevalent during World War II which represented a compromise between the mobility oriented light tanks and the protection and armour protection oriented heavy tanks. The most widely produced, cost effective and successful tanks of World War II (the Soviet T-34, the American Sherman tank, the Japanese Type 97 and the German Panzer IV) were all medium tank designs, and the success of the concept would later lead to the development of later generations of medium tanks such as the Chieftain. Many of the medium tanks lines became what are called main battle tank in most countries.",
+      "image1" : "medium_tank",
+      "image2" : "mediumtankmain",
+      "link" : "https://en.wikipedia.org/wiki/Medium_tank"
+    },
+	{
+      "name" : "heavy tank",
+      "shortdescr" : "slow and big it brings heavy weapons into the fight",
+      "longdescr" : "A heavy tank was a class of tank that generally provided better armour protection as well as equal or greater firepower than tanks of lighter classes, often at the cost of mobility and manoeuvrability and, particularly, expense./nThe origins of the class date to World War I and the very first tanks; designed to operate in close concert with the infantry and facing both artillery and the first dedicated anti-tank guns, early tanks had to have enough armour to allow them to survive in no man's land. As lighter tanks were introduced, the larger designs became known as heavies. A similar breakthrough role remained into World War II.",
+      "image1" : "heavy_tank",
+      "image2" : "heavymain",
+      "link" : "https://en.wikipedia.org/wiki/Heavy_tank"
+    },
+	{
+      "name" : "self propelled artillery",
+      "shortdescr" : "mobile and deadly. this is a spirit of a war",
+      "longdescr" : "Self-propelled artillery (also called mobile artillery or locomotive artillery) is artillery equipped with its own propulsion system to move towards its target. Within the term are covered self-propelled guns (or howitzers) and rocket artillery. They are high mobility vehicles, usually based on continuous tracks carrying either a large howitzer, field gun, a mortar or some form of rocket or missile launcher. They are usually used for long-range indirect bombardment support on the battlefield./nIn the past, self-propelled artillery has included direct-fire vehicles, such as assault guns and tank destroyers. These have been heavily armoured vehicles, the former providing close fire-support for infantry and the latter acting as specialized anti-tank vehicles.",
+      "image1" : "spart",
+      "image2" : "spartmain",
+      "link" : "https://en.wikipedia.org/wiki/Self-propelled_artillery"
+    }
+	
+	
+    ]
+}
