@@ -13,7 +13,7 @@ namespace labamobilki2
 		{
 			InitializeComponent();
 
-			MainPage = new labamobilki2.MainPage();
+			MainPage = new NavigationPage(new labamobilki2.MainPage());
 		}
 
 		protected override void OnStart ()

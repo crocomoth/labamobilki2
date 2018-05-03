@@ -5,6 +5,8 @@ using System.IO;
 using labamobilki2.ViewModel;
 using System.Reflection;
 using labamobilki2.Model;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace labamobilki2.Parsers
 {
@@ -30,7 +32,7 @@ namespace labamobilki2.Parsers
 
         public VMMainList GetData()
         {
-            /*
+            
             var json = GetJson();
 
             if (json == null)
@@ -38,19 +40,18 @@ namespace labamobilki2.Parsers
                 return null;
             }
 
-            var filmsData = JObject.Parse(json);
+            var itemsData = JObject.Parse(json);
 
-            var list = JsonConvert.DeserializeObject<T>(filmsData.ToString());
+            var list = JsonConvert.DeserializeObject<ItemArray>(itemsData.ToString());
             List<VMMain> resultList = new List<VMMain>();
-            foreach (var elem in list)
+            foreach (var elem in list.items)
             {
                 resultList.Add(new VMMain(elem));
             }
             VMMainList totalList = new VMMainList();
             totalList.Elements = resultList;
             return totalList;
-             */
-            return null;
+             
         }
     }
 }

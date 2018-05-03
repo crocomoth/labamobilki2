@@ -5,6 +5,75 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\antiair.png" />
+    <None Remove="Images\antiairmain.jpg" />
+    <None Remove="Images\antitank.png" />
+    <None Remove="Images\antitankmain.jpg" />
+    <None Remove="Images\artillery.png" />
+    <None Remove="Images\artillerymain.jpg" />
+    <None Remove="Images\cavalry.png" />
+    <None Remove="Images\cavalrymain.jpg" />
+    <None Remove="Images\heavymain.jpg" />
+    <None Remove="Images\heavy_tank.png" />
+    <None Remove="Images\infantry.png" />
+    <None Remove="Images\infantrymain.jpg" />
+    <None Remove="Images\lighttankmain.jpg" />
+    <None Remove="Images\light_tank.png" />
+    <None Remove="Images\marine.png" />
+    <None Remove="Images\marinemain.jpg" />
+    <None Remove="Images\mechanized.png" />
+    <None Remove="Images\mechanizedmain.jpg" />
+    <None Remove="Images\mediumtankmain.jpg" />
+    <None Remove="Images\medium_tank.png" />
+    <None Remove="Images\motorized.png" />
+    <None Remove="Images\motorizedmain.jpg" />
+    <None Remove="Images\mountaineermain.jpg" />
+    <None Remove="Images\mountaineers.png" />
+    <None Remove="Images\paratrooper.png" />
+    <None Remove="Images\paratroopermain.jpg" />
+    <None Remove="Images\rocket.png" />
+    <None Remove="Images\rocketmain.jpg" />
+    <None Remove="Images\spart.png" />
+    <None Remove="Images\spartmain.jpg" />
+    <None Remove="Parsers\data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\antiair.png" />
+    <EmbeddedResource Include="Images\antiairmain.jpg" />
+    <EmbeddedResource Include="Images\antitank.png" />
+    <EmbeddedResource Include="Images\antitankmain.jpg" />
+    <EmbeddedResource Include="Images\artillery.png" />
+    <EmbeddedResource Include="Images\artillerymain.jpg" />
+    <EmbeddedResource Include="Images\cavalry.png" />
+    <EmbeddedResource Include="Images\cavalrymain.jpg" />
+    <EmbeddedResource Include="Images\heavymain.jpg" />
+    <EmbeddedResource Include="Images\heavy_tank.png" />
+    <EmbeddedResource Include="Images\infantry.png" />
+    <EmbeddedResource Include="Images\infantrymain.jpg" />
+    <EmbeddedResource Include="Images\lighttankmain.jpg" />
+    <EmbeddedResource Include="Images\light_tank.png" />
+    <EmbeddedResource Include="Images\marine.png" />
+    <EmbeddedResource Include="Images\marinemain.jpg" />
+    <EmbeddedResource Include="Images\mechanized.png" />
+    <EmbeddedResource Include="Images\mechanizedmain.jpg" />
+    <EmbeddedResource Include="Images\mediumtankmain.jpg" />
+    <EmbeddedResource Include="Images\medium_tank.png" />
+    <EmbeddedResource Include="Images\motorized.png" />
+    <EmbeddedResource Include="Images\motorizedmain.jpg" />
+    <EmbeddedResource Include="Images\mountaineermain.jpg" />
+    <EmbeddedResource Include="Images\mountaineers.png" />
+    <EmbeddedResource Include="Images\paratrooper.png" />
+    <EmbeddedResource Include="Images\paratroopermain.jpg" />
+    <EmbeddedResource Include="Images\rocket.png" />
+    <EmbeddedResource Include="Images\rocketmain.jpg" />
+    <EmbeddedResource Include="Images\spart.png" />
+    <EmbeddedResource Include="Images\spartmain.jpg" />
+    <EmbeddedResource Include="Parsers\data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.280555" />
   </ItemGroup>
 
@@ -18,11 +87,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="DescriptionContent.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ExtraPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ItemViewCell.xaml">

@@ -7,19 +7,24 @@
 
     <ScrollView IsEnabled="True">
         <StackLayout>
+            <Button Text="extra" Clicked="OpenExtraPage"></Button>
             <ListView x:Name="ItemListView" 
 					  HasUnevenRows="True"
 					  ItemTapped="ItemListView_OnItemTapped"
-                      ItemsSource="{Binding MainList.Elements}"
+                      ItemsSource="{Binding Elements}"
 					  SeparatorVisibility="Default">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <local:ItemViewCell>
-                            <Image Source="{Binding Image}"></Image>
-                            <Label Text="{Binding Name}"></Label>
-                            <Label Text="{Binding Shortdescr}"></Label>
-                            <Label Text="{Binding LongDescr}" ></Label>      
-                        </local:ItemViewCell>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout>
+                                    <Image Source="{Binding RealImage}"/>
+                                    <Label Text="{Binding Name}" />
+                                    <Label Text="{Binding Shortdescr}" />
+                                    <Label Text="{Binding LongDescr}" LineBreakMode="TailTruncation"/>
+                                </StackLayout>
+                            </ViewCell.View>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

@@ -14,10 +14,12 @@ namespace labamobilki2
 	{
 		public WebPage (string name, string link)
 		{
+            InitializeComponent();
+
             if (name != null && link != null)
             {
                 Title += name;
-                LinkWebView.Source = new UrlWebViewSource() { Url = link };
+                UserWebView.Source = new UrlWebViewSource() { Url = link };
             }
         }
 	}

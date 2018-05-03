@@ -1,11 +1,6 @@
-﻿using labamobilki2.Model;
+﻿using System;
 using labamobilki2.Parsers;
 using labamobilki2.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace labamobilki2
@@ -23,7 +18,7 @@ namespace labamobilki2
 
             MainList = jsonParser.GetData();
 
-            this.BindingContext = MainList.Elements;
+            this.BindingContext = MainList;
         }
 
         private async void ItemListView_OnItemTapped(object sender, ItemTappedEventArgs e)
@@ -36,6 +31,11 @@ namespace labamobilki2
             }
 
             ItemListView.SelectedItem = null;
+        }
+
+        public async void OpenExtraPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ExtraPage());
         }
     }
 }

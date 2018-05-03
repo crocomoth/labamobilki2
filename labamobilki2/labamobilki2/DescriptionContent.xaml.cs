@@ -28,21 +28,21 @@ namespace labamobilki2
             {
                 Title += Description.Name;
 
-                var descriptionItem = new Description();
+                /*var descriptionItem = new Description();
 
                 descriptionItem.LongDescr = Description.LongDescr;
                 descriptionItem.Image = ImageSource.FromResource($"labamobilki2.Images.{Description.Image2}.jpg");
-                descriptionItem.ShortDescr = Description.Shordescr;
+                descriptionItem.ShortDescr = Description.ShortDescr;
                 descriptionItem.Link = Description.Link;
-                descriptionItem.Name = Description.Name;
+                descriptionItem.Name = Description.Name; */
 
-                BindingContext = descriptionItem;
+                BindingContext = this.Description;
             }
         }
 
         private async void Link_Click(object sender, EventArgs e)
         {
-            if (Description.Name != null && Description.Link != null)
+            if (Description?.Name != null && Description?.Link != null)
             {
                 await Navigation.PushAsync(new WebPage(Description.Name, Description.Link));
 

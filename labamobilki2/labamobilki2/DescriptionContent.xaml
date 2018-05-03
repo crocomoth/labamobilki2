@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Orientation="Vertical">
-                <Image Source="{Binding Image}"/>
+                <Image Source="{Binding RealImage}"/>
                 <Label Text="{Binding Name}"
 					   FontSize="Large"/>
                 <Label Text="{Binding ShortDescr}"
